@@ -11,12 +11,12 @@
 
 /* Common Styles */
 .noto-serif{
-  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  font-weight: 700;
 }
 .inter{
-  font-family: "Inter", sans-serif;
+  font-family: Inter;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -52,4 +52,20 @@ ul li:nth-child(1) a{
 }
 ul li:last-child a{
   color:#000000;
+}
+
+/* Banner Section */
+main{
+    margin-top: 7.5rem;
+}
+
+.banner{
+  align-items: end;
+}
+.banner-title{
+  color: #E95A08;
+  font-size: 4.0625rem;
+}
+.banner-title > span {
+  color: #000000;
 }
