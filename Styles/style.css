@@ -93,15 +93,16 @@ main{
 
 /* Responsive For mobile */
 @media screen and (max-width: 576px) {
-  ul li:nth-child(1) a , ul li:nth-child(2) a , ul li:nth-child(3) a{
+  ul li:nth-child(1)  , ul li:nth-child(2)  , ul li:nth-child(3) {
   display: none;
 }
 .navbar{
   width: 100%;
   padding: 0 1rem;
 }
-.nav-img{
-  max-width: 100%;
+.nav-img > img{
+  height: 38px;
+  width: 100%;
 }
 .banner{
   flex-direction: column-reverse;
