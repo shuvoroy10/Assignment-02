@@ -70,6 +70,27 @@ main{
   color: #000000;
 }
 
+/* Plant Section */
+.plant-section{
+  text-align: center;
+  margin: 7.5rem 0 3rem 0;
+}
+
+.plant-section h1{
+  color: #E95A08;
+  font-size: 3.125rem;
+}
+
+.plant-section span {
+  color: #000000;
+  font-size: 3.125rem;
+}
+.plant-section p{
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+}
+
 /* Responsive For mobile */
 @media screen and (max-width: 576px) {
   ul li:nth-child(1) a , ul li:nth-child(2) a , ul li:nth-child(3) a{
@@ -101,5 +122,7 @@ main{
 main , .banner-description{
     margin-top: 1.75rem;
 }
-
+.plant-section{
+  margin: 4rem 0 1.75rem 0;
+}
 }
