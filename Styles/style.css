@@ -160,7 +160,7 @@ main{
 .img-1{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../pic/deal-bloom.png);
 }
-.img-1 , .img-2 , .img-3{
+.img-1 , .img-2 , .img-3 , .join-section{
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -192,6 +192,31 @@ div > h3 {
   font-size: 1.75rem;
   color: #FFFFFF;
 }
+
+/* Join Section */
+.join-section {
+  margin-top: 7.5rem;
+  background-image: url(../pic/news-letter-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 33.3125rem;
+  border-radius: 0 !important;
+}
+.join-section > div > h3{
+  font-size: 3.125rem;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+.join-section > div > input[type="text"]{
+  width: 40.25rem;
+  height: 3.125rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 0.8rem;
+}
+.join-section > div > button{
+  width: 11.75rem;
+}
+
 /* Responsive For mobile */
 @media screen and (max-width: 576px) {
   .navbar-ul li:nth-child(1)  , .navbar-ul li:nth-child(2)  , .navbar-ul li:nth-child(3) {
@@ -288,5 +313,16 @@ main , .banner-description{
 }
 .img-2 > div > a {
   font-size: 1rem;
+}
+.join-section{
+  margin-top: 13.5rem;
+  height: 17.1875rem;
+}
+.input-button{
+  width: 13.625rem ;
+}
+.input-button > button {
+  padding: 0.8rem;
+  justify-content: center;
 }
 }
