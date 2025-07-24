@@ -158,7 +158,7 @@ main{
   
 }
 .img-1{
-  background-image: url(../pic/deal-bloom.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../pic/deal-bloom.png);
 }
 .img-1 , .img-2 , .img-3{
   background-size: cover;
@@ -171,13 +171,13 @@ main{
 
 .img-2{
   grid-row: span 2;
-  background-image: url(../pic/deal-zabo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../pic/deal-zabo.png);
 }
 div > h3 {
   font-size: 1.25rem;
 }
 .img-3{
-  background-image: url(../pic/deal-ana.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../pic/deal-ana.png);
 }
 .same {
   color: #FFFFFF;
