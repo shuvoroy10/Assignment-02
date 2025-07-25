@@ -105,10 +105,14 @@ main{
 
 .plant-lover-title{
   text-align: center;
+  margin-top: 1.5rem;
 }
 .plant-lover-title p{
   color: #111111;
   font-weight: 500;
+}
+.plant-lover-title > h3 {
+  margin: 0.2rem 0 1.5rem 0;
 }
 .btn{
   font-size: 1rem;
@@ -134,11 +138,41 @@ main{
   right: -7rem;
   position: absolute;
   height: 17.875rem;
+  animation: rotate-badge 5s linear infinite;
+}
+@keyframes rotate-badge {
+  0% {
+    transform: rotate(-90deg);
+  }
+  12.5% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  37.5% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  62.5% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  87.5% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
 }
 .trusted-section-right{
   padding: 0 3.75rem;
 }
-.trusted-section-right h1{
+.trusted-section-right h3{
   font-weight: 700;
   font-size: 3.125rem;
   color: #000000;
@@ -321,6 +355,9 @@ main , .banner-description{
 }
 .trusted-section-right{
   padding: 0 0.825rem 0 2rem;
+}
+.trusted-section-right > h3 {
+  margin-left: -1rem;
 }
 .trusted-section-right ul li{
   padding: 0;
