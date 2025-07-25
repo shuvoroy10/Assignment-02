@@ -218,6 +218,38 @@ div > h3 {
   width: 11.75rem;
 }
 
+/* Fotter */
+footer{
+  justify-content: space-between;
+  margin-top: 3.125rem !important;
+  align-items: flex-start;
+}
+.logo-text{
+  width: 30%;
+  margin-top: 1.5rem;
+}
+.logo-text > p{
+  color: #6B7280;
+  margin-top: 0.6rem;
+}
+footer > div > ul > li {
+  margin: 1.5rem 0;
+  list-style: none;
+}
+footer > div > ul > li > a{
+  color: #6B7280 !important;
+  text-decoration: none;
+  font-weight: 400 !important;
+}
+.icon-bar {
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.icon-bar > img{
+  width: 40px;
+  height: auto;
+}
+
 /* Responsive For mobile */
 @media screen and (max-width: 576px) {
   .navbar-ul li:nth-child(1)  , .navbar-ul li:nth-child(2)  , .navbar-ul li:nth-child(3) {
@@ -327,5 +359,12 @@ main , .banner-description{
 }
 .input-button > button {
   padding: 0.8rem;
+}
+footer{
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.logo-text{
+  width: 80%;
 }
 }
